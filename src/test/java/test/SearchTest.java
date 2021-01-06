@@ -22,11 +22,11 @@ public class SearchTest extends BaseTest {
         Assert.assertTrue(recieved);
     }
 
-//    @Test
-//    public void findGood(){
-//        Assert.assertTrue(new MegaTopMainPage()
-//                .openPage()
-//                .inputGoodId()
-//                .findGood());
-//    }
+    @Test
+    public void findGood(){
+        Assert.assertTrue(new MegaTopMainPage()
+                .openPage()
+                .inputGoodId()
+                .findGood());
+    }
 }
