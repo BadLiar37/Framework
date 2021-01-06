@@ -1,11 +1,8 @@
-
 package service;
-
 
 import model.User;
 
 public class UserCreator {
-
     public static final String TESTDATA_USER_PHONENUMBER = "test.data.phoneNumber";
     public static final String TESTDATA_USER_PASSWORD = "test.data.password";
 
