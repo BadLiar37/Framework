@@ -9,7 +9,6 @@ public class DriverSingleton {
     private static WebDriver driver;
 
     private DriverSingleton(){
-
     }
 
     public static WebDriver getInstance() {
@@ -25,7 +24,6 @@ public class DriverSingleton {
             }
             driver.manage().window().maximize();
         }
-
         return driver;
     }
 

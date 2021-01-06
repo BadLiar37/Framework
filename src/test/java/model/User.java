@@ -4,7 +4,6 @@ import lombok.*;
 
 import com.google.common.base.Preconditions;
 
-
 @Getter
 @Setter
 @ToString
