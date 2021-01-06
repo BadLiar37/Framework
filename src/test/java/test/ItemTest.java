@@ -8,7 +8,7 @@ import page.MegaTopPersonalAccountPage;
 
 public class ItemTest extends BaseTest{
 
-    @Test
+        @Test
     public void addToFavouriteTest(){
         new MegaTopItemPage()
                 .openPage()
@@ -18,7 +18,7 @@ public class ItemTest extends BaseTest{
         Assert.assertTrue(new MegaTopItemPage().addToFavourite());
     }
 
-    @Test
+        @Test
     public void isCorrectValuesTest(){
         new MegaTopItemPage()
                 .openPage()
@@ -27,7 +27,7 @@ public class ItemTest extends BaseTest{
         Assert.assertTrue(new MegaTopItemPage().inputSize().isCorrectOptions());
     }
 
-    @Test
+        @Test
     public void addGoodToOrder(){
         new MegaTopItemPage()
                 .openPage()
